@@ -6,7 +6,6 @@ import spring.intro.model.User;
 import spring.intro.service.UserService;
 
 public class Main {
-
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context
                 = new AnnotationConfigApplicationContext(AppConfig.class);
